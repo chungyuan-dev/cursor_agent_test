@@ -7,6 +7,7 @@ This repository contains a simple implementation of a singly linked list in Pyth
 ### Files
 
 - `linked_list_example.py` - Complete linked list implementation with examples
+- `math_utils.py` - Comprehensive mathematical utility functions
 
 ### Features
 
@@ -26,10 +27,41 @@ The linked list implementation includes:
   - `display()` - Show visual representation
   - `reverse()` - Reverse the list in place
 
-### Running the Example
+## Math Utils
+
+The math utilities module provides a comprehensive collection of mathematical functions:
+
+### Number Theory Functions
+- `factorial(n)` - Calculate factorial of a number
+- `fibonacci(n)` - Calculate nth Fibonacci number
+- `fibonacci_sequence(n)` - Generate first n Fibonacci numbers
+- `is_prime(n)` - Check if a number is prime
+- `prime_factors(n)` - Find all prime factors
+- `gcd(a, b)` - Greatest Common Divisor
+- `lcm(a, b)` - Least Common Multiple
+
+### Basic Operations
+- `power(base, exponent)` - Exponentiation
+- `square_root(n)` - Square root using Newton's method
+- `is_perfect_square(n)` - Check if number is perfect square
+- `sum_of_digits(n)` - Sum of digits in a number
+- `reverse_number(n)` - Reverse digits of a number
+
+### Statistical Functions
+- `mean(numbers)` - Arithmetic mean
+- `median(numbers)` - Median value
+- `mode(numbers)` - Most frequent value(s)
+- `standard_deviation(numbers)` - Standard deviation
+
+### Combinatorics
+- `combination(n, r)` - nCr combinations
+- `permutation(n, r)` - nPr permutations
+
+### Running the Examples
 
 ```bash
 python3 linked_list_example.py
+python3 math_utils.py
 ```
 
 ### Example Output
